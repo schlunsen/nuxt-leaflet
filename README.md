@@ -12,7 +12,7 @@
 
 ## Features
 
-The module features
+Module for vue2-leaflet
 
 ## Setup
 - Add `nuxt-leaflet` dependency using yarn or npm to your project
