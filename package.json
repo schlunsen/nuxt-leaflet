@@ -1,6 +1,6 @@
 {
   "name": "nuxt-leaflet",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Nuxt module for leafletjs",
   "license": "MIT",
   "contributors": [
@@ -35,6 +35,7 @@
   "devDependencies": {
     "codecov": "latest",
     "eslint": "latest",
+    "eslint-config-google": "^0.9.1",
     "eslint-config-standard": "latest",
     "eslint-plugin-import": "latest",
     "eslint-plugin-jest": "latest",
@@ -45,6 +46,6 @@
     "jest": "latest",
     "jsdom": "latest",
     "nuxt": "latest",
-    "standard-version": "latest"
+    "standard-version": "^4.3.0"
   }
 }
