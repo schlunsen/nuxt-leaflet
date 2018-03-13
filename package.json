@@ -1,6 +1,6 @@
 {
   "name": "nuxt-leaflet",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Nuxt module for leafletjs",
   "license": "MIT",
   "contributors": [
