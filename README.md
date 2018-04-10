@@ -51,22 +51,7 @@ Add the map to your page
 
 ## List of currently implemented components
 
--   [x] Map (v-map)
--   [x] Marker (v-marker)
--   [ ] Popup 
--   [ ] Tooltip
--   [x] TileLayer (v-tilelayer)
--   [ ] TileLayer.WMS
--   [ ] ImageOverlay
--   [ ] Polyline
--   [ ] Polygon
--   [ ] Rectangle
--   [ ] Circle
--   [ ] CircleMarker
--   [ ] LayerGroup
--   [ ] FeatureGroup
--   [ ] GeoJSON
-
+See [plugins](https://github.com/schlunsen/nuxt-leaflet/blob/master/lib/templates/plugin.js) supported
 
 
 ## Development
