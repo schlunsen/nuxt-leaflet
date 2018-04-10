@@ -51,7 +51,7 @@ Add the map to your page
 
 ## List of currently implemented components
 
-See [plugins](https://github.com/schlunsen/nuxt-leaflet/blob/master/lib/templates/plugin.js) supported
+See [components](https://github.com/schlunsen/nuxt-leaflet/blob/master/lib/templates/plugin.js) supported
 
 
 ## Development
