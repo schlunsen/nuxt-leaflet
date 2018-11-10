@@ -24,6 +24,16 @@
     mustache "^2.3.0"
     stack-trace "0.0.10"
 
+"@types/geojson@*":
+  version "7946.0.4"
+  resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-7946.0.4.tgz#4e049756383c3f055dd8f3d24e63fb543e98eb07"
+
+"@types/leaflet@^1.2.11":
+  version "1.2.14"
+  resolved "https://registry.yarnpkg.com/@types/leaflet/-/leaflet-1.2.14.tgz#912bcacdc2cfa62787573a27ca617ffb67f89614"
+  dependencies:
+    "@types/geojson" "*"
+
 JSONStream@^1.0.4:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/JSONStream/-/JSONStream-1.3.2.tgz#c102371b6ec3a7cf3b847ca00c20bb0fce4c6dea"
@@ -4351,6 +4361,10 @@ lcid@^1.0.0:
   dependencies:
     invert-kv "^1.0.0"
 
+leaflet@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.3.0.tgz#2bffd8b1a5a4d3048d6ed9d0a13c61a895da6be8"
+
 leaflet@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.3.1.tgz#86f336d2fb0e2d0ff446677049a5dc34cf0ea60e"
@@ -7504,11 +7518,12 @@ vue-template-es2015-compiler@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
 
-vue2-leaflet@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/vue2-leaflet/-/vue2-leaflet-1.0.1.tgz#be8b20052b32749ddd3a4964fe703cb68ae1c828"
+vue2-leaflet@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/vue2-leaflet/-/vue2-leaflet-1.2.1.tgz#26a103f6887baab39d227517692814642f122ddd"
   dependencies:
-    leaflet "^1.3.1"
+    "@types/leaflet" "^1.2.11"
+    leaflet "1.3.0"
 
 vue@^2.5.13:
   version "2.5.16"
