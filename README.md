@@ -48,6 +48,8 @@ Add the map to your page
 </div>
 ```
 
+The Leaflet 'L' object can be found on vue component: ```this.$L``` 
+
 
 ## List of currently implemented components
 
