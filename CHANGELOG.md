@@ -7,6 +7,11 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 
+<a name=""></a>
+# [](https://github.com/schlunsen/nuxt-leaflet/compare/v0.0.11...v) (2019-01-18)
+
+
+
 <a name="0.0.11"></a>
 ## [0.0.11](https://github.com/schlunsen/nuxt-leaflet/compare/v0.0.10...v0.0.11) (2018-11-10)
 
