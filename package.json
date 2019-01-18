@@ -1,6 +1,6 @@
 {
   "name": "nuxt-leaflet",
-  "version": null,
+  "version": "0.0.12",
   "description": "Nuxt module for leafletjs",
   "license": "MIT",
   "contributors": [
@@ -9,7 +9,10 @@
     }
   ],
   "main": "lib/module.js",
-  "repository": "https://github.com/schlunsen/nuxt-leaflet",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schlunsen/nuxt-leaflet.git"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -31,6 +34,7 @@
   },
   "dependencies": {
     "leaflet": "^1.3.1",
+    "npm-publish-git-tag": "^3.0.2",
     "vue2-leaflet": "^1.2.1"
   },
   "devDependencies": {
@@ -48,5 +52,11 @@
     "jsdom": "^11.7.0",
     "nuxt": "latest",
     "standard-version": "^4.3.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/schlunsen/nuxt-leaflet/issues"
+  },
+  "readme": "https://github.com/schlunsen/nuxt-leaflet#readme",
+  "homepage": "https://github.com/schlunsen/nuxt-leaflet#readme",
+  "_id": "nuxt-leaflet@0.0.11"
 }
