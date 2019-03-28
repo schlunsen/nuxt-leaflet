@@ -1,6 +1,6 @@
 {
   "name": "nuxt-leaflet",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Nuxt module for leafletjs",
   "license": "MIT",
   "contributors": [
@@ -35,7 +35,7 @@
   "dependencies": {
     "leaflet": "^1.4.0",
     "npm-publish-git-tag": "^3.0.3",
-    "vue2-leaflet": "^1.2.3"
+    "vue2-leaflet": "^2.0.2"
   },
   "devDependencies": {
     "codecov": "latest",
@@ -48,7 +48,7 @@
     "eslint-plugin-promise": "latest",
     "eslint-plugin-standard": "latest",
     "eslint-plugin-vue": "^4.7.1",
-    "jest": "^22.4.4",
+    "jest": "^24.5.0",
     "jsdom": "^11.12.0",
     "nuxt": "latest",
     "standard-version": "^4.4.0"
