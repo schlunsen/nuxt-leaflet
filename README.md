@@ -57,7 +57,7 @@ See [components](https://github.com/schlunsen/nuxt-leaflet/blob/master/lib/templ
 ## Development
 
 - Clone this repository
-- Install dependnecies using `yarn install` or `npm install`
+- Install dependencies using `yarn install` or `npm install`
 - Start development server using `npm run dev`
 
 ## License
