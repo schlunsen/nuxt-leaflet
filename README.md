@@ -52,6 +52,7 @@ The Leaflet 'L' object can be found on vue component: ```this.$L```
 
 If you're using TypeScript, you'll need to add nuxt-leaflet in your compilerOptions of your tsconfig.json :
 
+```json
 {
   "compilerOptions": {
     "types": [
@@ -61,8 +62,9 @@ If you're using TypeScript, you'll need to add nuxt-leaflet in your compilerOpti
     ]
   }
 }
+```
 
-You'll then be able to have autocompletion in Vue instances (this.$L).
+You'll then be able to have autocompletion in Vue instances (```this.$L```).
 
 
 ## List of currently implemented components
