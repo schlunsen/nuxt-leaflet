@@ -33,25 +33,26 @@
     "collectCoverage": true
   },
   "dependencies": {
-    "leaflet": "^1.4.0",
+    "@types/leaflet": "1.5.4",
+    "leaflet": "^1.6.0",
     "npm-publish-git-tag": "^3.0.3",
-    "vue2-leaflet": "^2.0.2"
+    "vue2-leaflet": "^2.4.2"
   },
   "devDependencies": {
-    "codecov": "latest",
-    "eslint": "^4.19.1",
-    "eslint-config-google": "^0.9.1",
-    "eslint-config-standard": "latest",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jest": "^21.27.2",
-    "eslint-plugin-node": "latest",
-    "eslint-plugin-promise": "latest",
-    "eslint-plugin-standard": "latest",
-    "eslint-plugin-vue": "^4.7.1",
-    "jest": "^24.5.0",
-    "jsdom": "^11.12.0",
-    "nuxt": "^2.7.1",
-    "standard-version": "^4.4.0"
+    "codecov": "3.6.5",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-standard": "14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.7.0",
+    "eslint-plugin-node": "11.0.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1",
+    "eslint-plugin-vue": "^6.1.2",
+    "jest": "^25.1.0",
+    "jsdom": "^16.1.0",
+    "nuxt": "^2.11.0",
+    "standard-version": "^7.1.0"
   },
   "bugs": {
     "url": "https://github.com/schlunsen/nuxt-leaflet/issues"

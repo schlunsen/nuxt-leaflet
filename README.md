@@ -48,6 +48,22 @@ Add the map to your page
 
 The Leaflet 'L' object can be found on vue component: ```this.$L``` 
 
+## Typescript
+
+If you're using TypeScript, you'll need to add nuxt-leaflet in your compilerOptions of your tsconfig.json :
+
+{
+  "compilerOptions": {
+    "types": [
+      "@types/node",
+      "@nuxt/vue-app",
+      "nuxt-leaflet"
+    ]
+  }
+}
+
+You'll then be able to have autocompletion in Vue instances (this.$L).
+
 
 ## List of currently implemented components
 
