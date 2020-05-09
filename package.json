@@ -27,7 +27,7 @@
   ],
   "files": [
     "lib",
-    "types/*.d.ts"
+    "*.d.ts"
   ],
   "jest": {
     "testEnvironment": "node",
