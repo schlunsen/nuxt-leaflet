@@ -26,7 +26,8 @@
     "lib/templates/*.*"
   ],
   "files": [
-    "lib"
+    "lib",
+    "*.d.ts"
   ],
   "jest": {
     "testEnvironment": "node",
