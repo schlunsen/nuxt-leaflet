@@ -37,12 +37,12 @@ See [vue2-leaflet](https://github.com/KoRiGaN/Vue2Leaflet) for more details.
 Add the map to your page
 ``` html
 <div id="map-wrap" style="height: 100vh">
- <no-ssr>
+ <client-only>
    <l-map :zoom=13 :center="[55.9464418,8.1277591]">
      <l-tile-layer url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"></l-tile-layer>
      <l-marker :lat-lng="[55.9464418,8.1277591]"></l-marker>
    </l-map>
- </no-ssr>
+ </client-only>
 </div>
 ```
 
