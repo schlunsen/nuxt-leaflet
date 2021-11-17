@@ -1,7 +1,6 @@
 # nuxt-leaflet
 [![npm (scoped with tag)](https://img.shields.io/npm/v/nuxt-leaflet/latest.svg?style=flat-square)](https://npmjs.com/package/nuxt-leaflet)
 [![npm](https://img.shields.io/npm/dt/nuxt-leaflet.svg?style=flat-square)](https://npmjs.com/package/nuxt-leaflet)
-[![Dependencies](https://david-dm.org/schlunsen/nuxt-leaflet/status.svg?style=flat-square)](https://david-dm.org/schlunsen/nuxt-leaflet)
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
 
 > Nuxt module for leafletjs
