@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0",
+    "nuxt": "^2.15.8",
     "nuxt-leaflet": "0.0.17",
     "vuetify": "^1.5.5",
     "vuetify-loader": "^1.2.1"
